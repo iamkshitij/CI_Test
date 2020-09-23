@@ -34,4 +34,6 @@ jobs:
       - name: cd to fir
         run: cd chatbot-angular
       - name: list the files
-        run: ls   
+        run: |
+          cd chatbot-angular
+          ls   
